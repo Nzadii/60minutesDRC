@@ -10,14 +10,83 @@
   font-style: normal;
 }
 */
-
-h1 {
-  font-family: "poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-p {
-  font-family: "poppins", sans-serif;
-  font-weight: 400;
+/* HEADER */
+.header {
+  background: #fff;
+  border-bottom: 2px solid #eee;
+}
+.navbar-nav .nav-link {
+  color: #e63946;
+  font-weight: 600;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+  color: #d62828;
+}
+
+/* HERO SECTION */
+.hero img {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* HIGHLIGHT BAR */
+.highlight-bar {
+  background-color: #e63946;
+  color: #fff;
+  font-weight: 600;
+  padding: 15px;
+  font-size: 16px;
+}
+
+/* VIDEO */
+.video-section video {
+  border-radius: 8px;
+}
+
+/* HOVER EFFECT */
+.hover-zoom {
+  transition: transform 0.3s ease;
+}
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+/* PARTNER BANNER */
+.partner-banner img {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+/* APP BANNER */
+.app-banner {
+  background: #fff;
+}
+.app-banner .btn {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* FOOTER */
+.footer {
+  background: #1a1a1a;
+}
+.footer p {
+  font-size: 14px;
+}
+.footer .btn {
+  background-color: #e63946;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+.footer .btn:hover {
+  background-color: #d62828;
 }
