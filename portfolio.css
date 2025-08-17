@@ -18,7 +18,7 @@ body {
 
 /* HEADER */
 .header {
-  background: #fff;
+  background: #1a1919;
   border-bottom: 2px solid #eee;
 }
 .navbar-nav .nav-link {
@@ -28,7 +28,7 @@ body {
   transition: color 0.3s;
 }
 .navbar-nav .nav-link:hover {
-  color: #d62828;
+  color: #fef3f3;
 }
 
 /* HERO SECTION */
