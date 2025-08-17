@@ -22,7 +22,7 @@ body {
   border-bottom: 2px solid #eee;
 }
 .navbar-nav .nav-link {
-  color: #e63946;
+  color: #e60518;
   font-weight: 600;
   margin-left: 15px;
   transition: color 0.3s;
@@ -39,7 +39,7 @@ body {
 
 /* HIGHLIGHT BAR */
 .highlight-bar {
-  background-color: #e63946;
+  background-color: #ff0a1e;
   color: #fff;
   font-weight: 600;
   padding: 15px;
@@ -82,7 +82,7 @@ body {
   font-size: 14px;
 }
 .footer .btn {
-  background-color: #e63946;
+  background-color: #da0d1e;
   border: none;
   font-weight: 600;
   padding: 10px 20px;
