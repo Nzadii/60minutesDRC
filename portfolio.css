@@ -31,12 +31,6 @@ body {
   color: #fef3f3;
 }
 
-/* HERO SECTION */
-.hero img {
-  max-height: 300px;
-  object-fit: cover;
-}
-
 /* HIGHLIGHT BAR */
 .highlight-bar {
   background-color: #ff0a1e;
@@ -89,4 +83,16 @@ body {
 }
 .footer .btn:hover {
   background-color: #d62828;
+}
+
+.hero {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-banner img {
+  width: 100%; /* full width */
+  height: auto; /* keep aspect ratio */
+  display: block; /* removes bottom white gap */
 }
