@@ -108,7 +108,7 @@ body {
 
 /* Add this to your CSS file or inside a <style> tag */
 .img-fluid.hover-zoom {
-  transform: scale(1.6); /* Makes the image 1.5 times bigger */
+  transform: scale(1.2); /* Makes the image 1.5 times bigger */
   transition: transform 0.3s ease; /* Smooth scaling */
   display: block;
   margin: 0 auto; /* Keeps it centered in the column */
@@ -117,5 +117,14 @@ body {
 
 /* Optional: Zoom effect on hover */
 .img-fluid.hover-zoom:hover {
-  transform: scale(1.6);
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .img-fluid.hover-zoom {
+    transform: scale(1); /* prevent scaling on small screens */
+  }
 }
