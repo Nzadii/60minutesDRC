@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="portfolio.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/73d41b4b0b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>60 Minutes DRC</title>
+  </head>
+
+  <body>
+    <header class="header navbar navbar-expand-lg sticky-top px-4">
+      <a class="navbar-brand" href="#"
+        ><img src="assets /logo.png" alt="60 Minutes DRC" height="50"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link scroll-link">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a href="#apps" class="nav-link scroll-link">Application</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link scroll-link">Contactez-nous</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <!-- RED BAR WITH TEXT -->
+
+    <!-- MAIN CONTENT -->
+
+    <div style="text-align: center; padding: 50px">
+      <img
+        src="assets /const.png"
+        alt="En construction"
+        style="width: 200px; height: auto; margin-bottom: 20px"
+      />
+      <h2>
+        Désolé, notre application 60 Minutes DRC est actuellement en cours de
+        construction.
+      </h2>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Smooth Scroll -->
+    <script>
+      document.querySelectorAll(".scroll-link").forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          target.scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    </script>
+
+    <!-- FOOTER -->
+    <footer
+      id="contact"
+      class="footer d-flex justify-content-between align-items-center px-4 py-3"
+    >
+      <p class="m-0 text-white">
+        Nos lignes sont ouvertes de 09h00 à 20h30 <br />
+        (+243)011-22-33
+      </p>
+      <p class="m-0 text-white">60 Minutes DRC à votre service</p>
+
+      <a href="#" class="btn btn-danger">Devenir livreur</a>
+    </footer>
+  </body>
+</html>
