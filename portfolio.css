@@ -96,3 +96,8 @@ body {
   height: auto; /* keep aspect ratio */
   display: block; /* removes bottom white gap */
 }
+
+.custom-size {
+  width: 109%; /* Makes it bigger than its column */
+  max-width: none; /* Remove Bootstrap limit */
+}
