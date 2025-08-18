@@ -105,3 +105,17 @@ body {
 .custom-size:hover {
   transform: scale(2); /* Zooms when hovered */
 }
+
+/* Add this to your CSS file or inside a <style> tag */
+.img-fluid.hover-zoom {
+  transform: scale(1.6); /* Makes the image 1.5 times bigger */
+  transition: transform 0.3s ease; /* Smooth scaling */
+  display: block;
+  margin: 0 auto; /* Keeps it centered in the column */
+  max-width: 100%; /* Ensures it doesn't overflow the column */
+}
+
+/* Optional: Zoom effect on hover */
+.img-fluid.hover-zoom:hover {
+  transform: scale(1.6);
+}
