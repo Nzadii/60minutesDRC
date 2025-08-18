@@ -103,5 +103,5 @@ body {
 }
 
 .custom-size:hover {
-  transform: scale(3); /* Zooms when hovered */
+  transform: scale(2); /* Zooms when hovered */
 }
