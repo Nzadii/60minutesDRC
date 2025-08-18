@@ -98,6 +98,10 @@ body {
 }
 
 .custom-size {
-  width: 109%; /* Makes it bigger than its column */
-  max-width: none; /* Remove Bootstrap limit */
+  transform: scale(1); /* Normal size */
+  transition: transform 0.3s ease;
+}
+
+.custom-size:hover {
+  transform: scale(3); /* Zooms when hovered */
 }
