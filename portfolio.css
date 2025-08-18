@@ -128,3 +128,13 @@ body {
     transform: scale(1); /* prevent scaling on small screens */
   }
 }
+section.partner-banner,
+section.download-app {
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+@media (min-width: 768px) {
+  .banner-section {
+    margin-bottom: 50px; /* More space on bigger screens */
+  }
+}
