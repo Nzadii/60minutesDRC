@@ -138,3 +138,14 @@ section.download-app {
     margin-bottom: 50px; /* More space on bigger screens */
   }
 }
+
+.custom-video {
+  width: 100%;
+  max-width: 400px; /* adjust this to control size */
+  height: auto;
+  border-radius: 10px; /* optional styling */
+}
+.video-section {
+  display: flex;
+  justify-content: center; /* center horizontally */
+}
