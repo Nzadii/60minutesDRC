@@ -86,21 +86,25 @@
 
     <!-- MAIN CONTENT -->
 
-    <main class="container text-center py-4">
-  <div class="video-section mb-4">
-    <video
-      autoplay
-      loop
-      muted
-      playsinline
-      preload="auto"
-      class="custom-video"
-    >
-      <source src="assets /60minvid.mp4" type="video/mp4" />
-      Votre navigateur ne supporte pas la vidéo.
-    </video>
-  </div>
-</main>
+
+  <main class="container text-center py-4">
+    <div class="video-section mb-4">
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        preload="auto"
+        class="custom-video"
+        id="promo-video"
+      >
+        <source src="assets /60minvid.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+      <button id="unmute-btn" class="unmute-btn">🔊 Unmute</button>
+    </div>
+  </main>
+
 
 
       <!-- Vision -->
@@ -221,5 +225,7 @@
         });
       });
     </script>
+    <script src="script.js"></script>
+
   </body>
 </html>
